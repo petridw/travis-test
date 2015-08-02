@@ -40,8 +40,7 @@ function balancedParens(input){
 		}else {
 			if (stack.length === 0){
 				return false;
-			}
-			var pop = stack[stack.length-1];
+			
 			stack.length -= 1;
 			if (index !== pop){
 				return false;
